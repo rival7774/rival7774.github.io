@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en" class="no-js page">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="google" content="notranslate">
+  <meta name="format-detection" content="telephone=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@200;300;600;700&family=Lato:wght@700&family=Open+Sans:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+
+  <title>Toys</title>
+
+  <script>
+    var docElement = document.documentElement;
+    docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+  </script>
+
+  
+
+  <link rel="stylesheet" href="css/style.min.css?v=1667317454606">
+</head>
+
+<body>
+<header class="header container">
+  <div class="header__wrap-nav">
+    <a class="header__link" href="./index.html">
+      <svg class="header__logo" aria-label="Логотип компании DLK" width="100" height="52" viewBox="0 0 100 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H18.1129C31.1202 0 40.4058 12.3713 40.4058 24.0356V27.7332C40.4058 39.3974 31.1202 51.7689 18.1129 51.7689H0V0ZM37.6192 24.0356C37.6192 13.5132 29.2167 2.77333 18.1129 2.77333H2.78661V48.9956H18.1129C29.2167 48.9956 37.6192 38.2557 37.6192 27.7333V24.0356Z" fill="#1E0606"/>
+        <path d="M46.4435 0H49.2301V49.2267H64.092V52H46.4435V0Z" fill="#1E0606"/>
+        <path d="M67.8074 0V51.7689H70.5941V27.3833L71.278 26.7025L96.0884 51.7689H100L73.2485 24.7414L98.1084 0H94.1675L70.5941 23.4612V0H67.8074Z" fill="#1E0606"/>
+      </svg>
+    </a>
+
+    <button class="header__button-nav"></button>
+
+    <nav class="header-nav">
+      <ul class="header-nav__list-menu">
+        <li class="header-nav__list-menu__item">
+          <a class="header-nav__list-menu__link" href="./catalog.html">Catalog</a>
+        </li>
+
+        <li class="header-nav__list-menu__item">
+          <a class="header-nav__list-menu__link" href="./about.html">About Us</a>
+        </li>
+
+        <li class="header-nav__list-menu__item">
+          <a class="header-nav__list-menu__link" href="./blog.html">Blog</a>
+        </li>
+
+        <li class="header-nav__list-menu__item">
+          <a class="header-nav__list-menu__link" href="./animation.html">Animation</a>
+        </li>
+
+        <li class="header-nav__list-menu__item">
+          <a class="header-nav__list-menu__link" href="./svg.html">Svg</a>
+        </li>
+
+        <li class="header-nav__list-menu__item">
+          <a class="header-nav__list-menu__link" href="./grid.html">Grid</a>
+        </li>
+
+        <li class="header-nav__list-menu__item header-nav__list-menu__item--disabled">
+          <a class="header-nav__list-menu__link" href="./contact.html">Contact&nbsp;Us</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="header__wrap-search">
+    <form class="header__form-search" action="https://echo.htmlacademy.ru/" method="post" name="header-search">
+      <label class="visually-hidden" for="search">Строка поиска</label>
+      <input class="header__search" type="search" name="search" id="search">
+      <button class="header__search-submit" type="submit" aria-label="Начать поиск"></button>
+    </form>
+
+    <a class="header__contact-link" href="./contact.html">Contact Us</a>
+  </div>
+</header>
+
+
+<main>
+  <section class="page-title container">
+    <h1 class="page-title__title main-title">Toy for kids</h1>
+
+    <ul class="page-title__crumbs">
+      <li class="page-title__crumbs__item">
+        <a href="./index.html" class="page-title__crumbs__link">Home</a>
+      </li>
+
+      <li class="page-title__crumbs__item">
+        <a href="./catalog.html" class="page-title__crumbs__link">Catalog</a>
+      </li>
+
+      <li class="page-title__crumbs__item page-title__crumbs__item--active">
+        <a class="page-title__crumbs__link"> Toys</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="options">
+    <h2 class="visually-hidden">Настройки формы</h2>
+    <form class="options__form container" name="options" action="https://echo.htmlacademy.ru/" method="get">
+      <fieldset class="options__form__slider-wrap fieldset">
+        <legend class="options__form__title">Cost</legend>
+
+        <label class="visually-hidden" for="range">Ползунок диапозона</label>
+        <input class="options__form__range" id="range" type="range" name="range" min="0" max="500" value="103">
+
+        <div class="options__form__slider__wrap-numbers">
+          <span class="options__form__slider__number">0</span>
+          <span class="options__form__slider__number">500</span>
+        </div>
+      </fieldset>
+
+      <fieldset class="options__form__color fieldset">
+        <legend class="options__form__title">Color</legend>
+
+        <div class="options__form__color__inner-wrap checkbox-wrap">
+          <input class="visually-hidden" id="black" type="checkbox" name="black" checked="checked">
+          <label class="options__form__color__label checkbox-custom" for="black">Black</label>
+        </div>
+
+        <div class="options__form__color__inner-wrap checkbox-wrap">
+          <input class="visually-hidden" id="blue" type="checkbox" name="blue">
+          <label class="options__form__color__label checkbox-custom" for="blue">Blue</label>
+        </div>
+
+        <div class="options__form__color__inner-wrap checkbox-wrap">
+          <input class="visually-hidden" id="green" type="checkbox" name="green">
+          <label class="options__form__color__label checkbox-custom" for="green">Green</label>
+        </div>
+
+        <div class="options__form__color__inner-wrap checkbox-wrap">
+          <input class="visually-hidden" id="white" type="checkbox" name="white">
+          <label class="options__form__color__label checkbox-custom" for="white">White</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="options__form__delivery fieldset">
+        <legend class="options__form__title">Delivery</legend>
+
+        <div class="options__form__delivery__inner-wrap">
+          <input class="options__form__delivery__radio visually-hidden" type="radio" name="shipping" id="free" value="free shipping">
+          <label class="options__form__delivery__label" for="free">Free shipping</label>
+        </div>
+
+        <div class="options__form__delivery__inner-wrap">
+          <input class="options__form__delivery__radio visually-hidden" type="radio" name="shipping" id="fast" value="fast shipping" checked="checked">
+          <label class="options__form__delivery__label" for="fast">Fast shipping</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="options__form__amount fieldset">
+        <legend class="options__form__title">Amount</legend>
+
+        <div class="options__form__amount__inner-wrap">
+          <input class="options__form__amount__radio visually-hidden" type="radio" name="amount" id="min" value="0-5" checked="checked">
+          <label class="options__form__amount__label" for="min">0-5</label>
+        </div>
+
+        <div class="options__form__amount__inner-wrap">
+          <input class="options__form__amount__radio visually-hidden" type="radio" name="amount" id="mid" value="10-20">
+          <label class="options__form__amount__label" for="mid">10-20</label>
+        </div>
+
+        <div class="options__form__amount__inner-wrap">
+          <input class="options__form__amount__radio visually-hidden" type="radio" name="amount" id="max" value="20-50">
+          <label class="options__form__amount__label" for="max">20-50</label>
+        </div>
+      </fieldset>
+
+      <button class="options__form__submit link" type="submit">Apply</button>
+    </form>
+  </section>
+
+  <section class="toys container">
+    <h2 class="visually-hidden">Каталог продуктов</h2>
+
+    <div class="slider">
+      <div class="slider__ribbon">
+        <ul class="slider__list">
+          <li class="slider__item">
+            <h3 class="slider__name">Sharky bean bag chair cover</h3>
+            <img class="slider__img" width="380" height="385" src="./img/sharky.jpg" alt="Чехол для стула в виде синей акулы с раскрытой пастью">
+            <span class="slider__prise">$60.00 USD</span>
+          </li>
+
+          <li class="slider__item">
+            <h3 class="slider__name">Brass deco frames</h3>
+            <img class="slider__img" width="380" height="385" src="./img/pendant.jpg" alt="Подвеска золотистого цвета">
+            <span class="slider__prise">$66.00 USD</span>
+          </li>
+
+          <li class="slider__item">
+            <h3 class="slider__name">Cibo full apron</h3>
+            <img class="slider__img" width="380" height="385" src="./img/apron.jpg" alt="Чёрный фартук с полосатой вставкой и лямками">
+            <span class="slider__prise">$60.00 USD</span>
+          </li>
+
+          <li class="slider__item">
+            <h3 class="slider__name">Gatcha gatcha gumball machine</h3>
+            <img class="slider__img" width="380" height="385" src="./img/gatcha.jpg" alt="Изображение товара">
+            <span class="slider__prise">$56.00 USD</span>
+          </li>
+
+          <li class="slider__item">
+            <h3 class="slider__name">Christmas advent scented candle</h3>
+            <img class="slider__img" width="380" height="385" src="./img/christmas_candle.jpg" alt="Ароматическая свеча с таблицей из цыфр">
+            <span class="slider__prise">$29.00 USD</span>
+          </li>
+
+          <li class="slider__item">
+            <h3 class="slider__name">Tangle spinning tea light</h3>
+            <img class="slider__img" width="380" height="385" src="./img/tea_candle.jpg" alt="Вращающаяся чайная свеча">
+            <span class="slider__prise">$56.00 USD</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="slider__controls">
+        <button class="slider__controls__arrow slider__controls__arrow--left" aria-label="Стрелка переключения слайдера влево"></button>
+
+        <ul class="slider__controls__dots">
+          <li class="slider__controls__dot">
+            <button class="slider__controls__button slider__controls__button--active">1</button>
+          </li>
+
+          <li class="slider__controls__dot">
+            <button class="slider__controls__button">2</button>
+          </li>
+
+          <li class="slider__controls__dot">
+            <button class="slider__controls__button">3</button>
+          </li>
+
+          <li class="slider__controls__dot">
+            <button class="slider__controls__button">4</button>
+          </li>
+        </ul>
+
+        <button class="slider__controls__arrow slider__controls__arrow--right" aria-label="Стрелка переключения слайдера вправо"></button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__inner-wrap container">
+    <section class="footer__navigation">
+      <h2 class="footer__navigation__title">Navigation</h2>
+      <ul class="footer__navigation__list">
+        <li class="footer__navigation__list-item footer__navigation__list-item--column-1">
+          <a href="#" class="footer__navigation__list-link">About Us</a>
+        </li>
+
+        <li class="footer__navigation__list-item footer__navigation__list-item--column-1">
+          <a href="./pages/blog.html" class="footer__navigation__list-link">Blog</a>
+        </li>
+
+        <li class="footer__navigation__list-item footer__navigation__list-item--column-1">
+          <a href="#" class="footer__navigation__list-link">Design Services</a>
+        </li>
+
+        <li class="footer__navigation__list-item footer__navigation__list-item--column-2 footer__navigation__list-item--row-1">
+          <a href="#" class="footer__navigation__list-link">Featured On</a>
+        </li>
+
+        <li class="footer__navigation__list-item footer__navigation__list-item--column-2 footer__navigation__list-item--row-2">
+          <a href="#" class="footer__navigation__list-link">2018 Holiday Catalog</a>
+        </li>
+
+        <li class="footer__navigation__list-item footer__navigation__list-item--column-2 footer__navigation__list-item--row-3">
+          <a href="#" class="footer__navigation__list-link">Shop By Designer</a>
+        </li>
+
+      </ul>
+    </section>
+
+    <section class="footer__navigation">
+      <h2 class="footer__navigation__title">Customer Information</h2>
+      <ul class="footer__navigation__list">
+        <li class="footer__navigation__list-item footer__navigation__list-item--column-1">
+          <a href="./pages/contact.html" class="footer__navigation__list-link">Contact Us</a>
+        </li>
+
+        <li class="footer__navigation__list-item footer__navigation__list-item--column-1">
+          <a href="#" class="footer__navigation__list-link">Sale Exclusions</a>
+        </li>
+
+        <li class="footer__navigation__list-item footer__navigation__list-item--column-1">
+          <a href="#" class="footer__navigation__list-link">Shipping & Returns</a>
+        </li>
+
+        <li class="footer__navigation__list-item footer__navigation__list-item--column-2 footer__navigation__list-item--row-1">
+          <a href="#" class="footer__navigation__list-link">Terms & Conditions</a>
+        </li>
+
+        <li class="footer__navigation__list-item footer__navigation__list-item--column-2 footer__navigation__list-item--row-2">
+          <a href="#" class="footer__navigation__list-link">Privacy Policy</a>
+        </li>
+
+        <li class="footer__navigation__list-item footer__navigation__list-item--column-2 footer__navigation__list-item--row-3">
+          <a href="#" class="footer__navigation__list-link">Search</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="footer__navigation">
+      <h2 class="footer__navigation__title footer__navigation__title--connect">Connect</h2>
+
+      <form class="footer__navigation__form" action="https://echo.htmlacademy.ru/" name="join" method="post">
+        <fieldset class="footer__navigation__wrap-join">
+          <label class="visually-hidden" for="footer-email">Введите свой email чтобы присоединиться к
+            нам</label>
+          <input class="footer__navigation__email" id="footer-email" type="email" name="email" placeholder="Email">
+        </fieldset>
+
+        <button class="footer__navigation__submit link" type="submit">Join</button>
+      </form>
+
+      <ul class="footer__navigation__list footer-list">
+        <li class="footer-list__item">
+          <a href="https://ru-ru.facebook.com/" class="footer-list__link footer-list__link--feecbook"></a>
+        </li>
+
+        <li class="footer-list__item">
+          <a href="https://twitter.com/?lang=ru" class="footer-list__link footer-list__link--twitter"></a>
+        </li>
+
+        <li class="footer-list__item">
+          <a href="https://ru.pinterest.com/" class="footer-list__link footer-list__link--pinterest"></a>
+        </li>
+
+        <li class="footer-list__item">
+          <a href="https://www.instagram.com/" class="footer-list__link footer-list__link--instagram"></a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="footer__info">
+      <div class="footer__info__rating">
+        <div class="footer__info__wrap-stars">
+          <input class="footer__info__rating__radio footer__info__rating__radio--1" aria-label="Поставить 1 звезду" type="radio" name="star" id="star1">
+
+          <input class="footer__info__rating__radio footer__info__rating__radio--2" aria-label="Поставить 2 звезды" type="radio" name="star" id="star2">
+
+          <input class="footer__info__rating__radio footer__info__rating__radio--3" aria-label="Поставить 3 звезды" type="radio" name="star" id="star3">
+
+          <input class="footer__info__rating__radio footer__info__rating__radio--4" aria-label="Поставить 4 звезды" type="radio" name="star" id="star4">
+
+          <input class="footer__info__rating__radio footer__info__rating__radio--5" aria-label="Поставить 5 звезд" type="radio" name="star" id="star5">
+        </div>
+
+        <p class="footer__info__rating__text">Company Rating</p>
+      </div>
+
+      <div class="footer__info__copyright">
+        <p class="footer__info__copyright__text">Copyright © 2018 Dlk • Design Life Kids</p>
+      </div>
+
+      <div class="footer__info__developer">
+        <a href="#" class="footer__info__developer__link">Web Design — Direct Line Development</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="js/app.js" type="module" defer="defer"></script>
+</body>
+</html>
