@@ -19,7 +19,7 @@
 
   
 
-  <link rel="stylesheet" href="css/style.min.css?v=1667317454606">
+  <link rel="stylesheet" href="css/style.min.css?v=1667820380550">
 </head>
 <body>
 <header class="header container">
@@ -34,7 +34,7 @@
 
     <button class="header__button-nav"></button>
 
-    <nav class="header-nav">
+    <nav class="header-nav header-nav--hidden">
       <ul class="header-nav__list-menu">
         <li class="header-nav__list-menu__item">
           <a class="header-nav__list-menu__link" href="./catalog.html">Catalog</a>
@@ -219,8 +219,8 @@
 
     <div class="services__img-wrap">
       <picture>
-        <source class="services__img" width="335" height="357" media="(max-width: 767px)" srcset="./img/delivery_woman_mobile.jpg, ./img/delivery_woman_mobile@x2.jpg 2x">
-        <source class="services__img" width="258" height="512" media="(max-width: 768px)" srcset="./img/delivery_woman_tablet.jpg, ./img/delivery_woman_tablet@x2.jpg 2x">
+        <source media="(max-width: 767px)" srcset="./img/delivery_woman_mobile.jpg, ./img/delivery_woman_mobile@x2.jpg 2x">
+        <source media="(max-width: 768px)" srcset="./img/delivery_woman_tablet.jpg, ./img/delivery_woman_tablet@x2.jpg 2x">
         <img class="services__img" width="480" height="559" src="./img/delivery_woman.jpg" srcset="./img/delivery_woman@x2.jpg 2x" alt="Девушка с татуировкой на левой руке, светлыми волосами и в белом платье с квадратиками на нём">
       </picture>
     </div>
@@ -286,26 +286,25 @@
           <a href="#" class="footer__navigation__list-link">About Us</a>
         </li>
 
-        <li class="footer__navigation__list-item footer__navigation__list-item--column-1">
+        <li class="footer__navigation__list-item">
           <a href="./pages/blog.html" class="footer__navigation__list-link">Blog</a>
         </li>
 
-        <li class="footer__navigation__list-item footer__navigation__list-item--column-1">
+        <li class="footer__navigation__list-item">
           <a href="#" class="footer__navigation__list-link">Design Services</a>
         </li>
 
-        <li class="footer__navigation__list-item footer__navigation__list-item--column-2 footer__navigation__list-item--row-1">
+        <li class="footer__navigation__list-item">
           <a href="#" class="footer__navigation__list-link">Featured On</a>
         </li>
 
-        <li class="footer__navigation__list-item footer__navigation__list-item--column-2 footer__navigation__list-item--row-2">
+        <li class="footer__navigation__list-item">
           <a href="#" class="footer__navigation__list-link">2018 Holiday Catalog</a>
         </li>
 
-        <li class="footer__navigation__list-item footer__navigation__list-item--column-2 footer__navigation__list-item--row-3">
+        <li class="footer__navigation__list-item">
           <a href="#" class="footer__navigation__list-link">Shop By Designer</a>
         </li>
-
       </ul>
     </section>
 
@@ -353,19 +352,19 @@
 
       <ul class="footer__navigation__list footer-list">
         <li class="footer-list__item">
-          <a href="https://ru-ru.facebook.com/" class="footer-list__link footer-list__link--feecbook"></a>
+          <a href="https://ru-ru.facebook.com/" class="footer-list__link footer-list__link--facebook" aria-label="Найти нас в facebook"></a>
         </li>
 
         <li class="footer-list__item">
-          <a href="https://twitter.com/?lang=ru" class="footer-list__link footer-list__link--twitter"></a>
+          <a href="https://twitter.com/?lang=ru" class="footer-list__link footer-list__link--twitter" aria-label="Найти нас в twitter"></a>
         </li>
 
         <li class="footer-list__item">
-          <a href="https://ru.pinterest.com/" class="footer-list__link footer-list__link--pinterest"></a>
+          <a href="https://ru.pinterest.com/" class="footer-list__link footer-list__link--pinterest" aria-label="Найти нас в pinterest"></a>
         </li>
 
         <li class="footer-list__item">
-          <a href="https://www.instagram.com/" class="footer-list__link footer-list__link--instagram"></a>
+          <a href="https://www.instagram.com/" class="footer-list__link footer-list__link--instagram" aria-label="Найти нас в instagram"></a>
         </li>
       </ul>
     </section>

@@ -18,7 +18,8 @@
 
   
 
-  <link rel="stylesheet" href="css/style.min.css?v=1667317454606">
+  <link rel="stylesheet" href="css/style.min.css?v=1667820380550">
+
 </head>
 
 <body>
@@ -34,7 +35,7 @@
 
     <button class="header__button-nav"></button>
 
-    <nav class="header-nav">
+    <nav class="header-nav header-nav--hidden">
       <ul class="header-nav__list-menu">
         <li class="header-nav__list-menu__item">
           <a class="header-nav__list-menu__link" href="./catalog.html">Catalog</a>
@@ -182,37 +183,37 @@
         <ul class="slider__list">
           <li class="slider__item">
             <h3 class="slider__name">Sharky bean bag chair cover</h3>
-            <img class="slider__img" width="380" height="385" src="./img/sharky.jpg" alt="Чехол для стула в виде синей акулы с раскрытой пастью">
+            <img class="slider__img" width="380" height="385" src="./img/sharky.png" srcset="./img/sharky@x2.png 2x" alt="Чехол для стула в виде синей акулы с раскрытой пастью">
             <span class="slider__prise">$60.00 USD</span>
           </li>
 
           <li class="slider__item">
             <h3 class="slider__name">Brass deco frames</h3>
-            <img class="slider__img" width="380" height="385" src="./img/pendant.jpg" alt="Подвеска золотистого цвета">
+            <img class="slider__img" width="380" height="385" src="./img/pendant.png" srcset="./img/pendant@x2.png 2x" alt="Подвеска золотистого цвета">
             <span class="slider__prise">$66.00 USD</span>
           </li>
 
           <li class="slider__item">
             <h3 class="slider__name">Cibo full apron</h3>
-            <img class="slider__img" width="380" height="385" src="./img/apron.jpg" alt="Чёрный фартук с полосатой вставкой и лямками">
+            <img class="slider__img" width="380" height="385" src="./img/apron.png" srcset="./img/apron@x2.png 2x" alt="Чёрный фартук с полосатой вставкой и лямками">
             <span class="slider__prise">$60.00 USD</span>
           </li>
 
           <li class="slider__item">
             <h3 class="slider__name">Gatcha gatcha gumball machine</h3>
-            <img class="slider__img" width="380" height="385" src="./img/gatcha.jpg" alt="Изображение товара">
+            <img class="slider__img" width="380" height="385" src="./img/gatcha.png" srcset="./img/gatcha@x2.png 2x" alt="Изображение товара">
             <span class="slider__prise">$56.00 USD</span>
           </li>
 
           <li class="slider__item">
             <h3 class="slider__name">Christmas advent scented candle</h3>
-            <img class="slider__img" width="380" height="385" src="./img/christmas_candle.jpg" alt="Ароматическая свеча с таблицей из цыфр">
+            <img class="slider__img" width="380" height="385" src="./img/christmas_candle.png" srcset="./img/christmas_candle@x2.png 2x" alt="Ароматическая свеча с таблицей из цыфр">
             <span class="slider__prise">$29.00 USD</span>
           </li>
 
           <li class="slider__item">
             <h3 class="slider__name">Tangle spinning tea light</h3>
-            <img class="slider__img" width="380" height="385" src="./img/tea_candle.jpg" alt="Вращающаяся чайная свеча">
+            <img class="slider__img" width="380" height="385" src="./img/tea_candle.png" srcset="./img/tea_candle@x2.png 2x" alt="Вращающаяся чайная свеча">
             <span class="slider__prise">$56.00 USD</span>
           </li>
         </ul>
@@ -254,26 +255,25 @@
           <a href="#" class="footer__navigation__list-link">About Us</a>
         </li>
 
-        <li class="footer__navigation__list-item footer__navigation__list-item--column-1">
+        <li class="footer__navigation__list-item">
           <a href="./pages/blog.html" class="footer__navigation__list-link">Blog</a>
         </li>
 
-        <li class="footer__navigation__list-item footer__navigation__list-item--column-1">
+        <li class="footer__navigation__list-item">
           <a href="#" class="footer__navigation__list-link">Design Services</a>
         </li>
 
-        <li class="footer__navigation__list-item footer__navigation__list-item--column-2 footer__navigation__list-item--row-1">
+        <li class="footer__navigation__list-item">
           <a href="#" class="footer__navigation__list-link">Featured On</a>
         </li>
 
-        <li class="footer__navigation__list-item footer__navigation__list-item--column-2 footer__navigation__list-item--row-2">
+        <li class="footer__navigation__list-item">
           <a href="#" class="footer__navigation__list-link">2018 Holiday Catalog</a>
         </li>
 
-        <li class="footer__navigation__list-item footer__navigation__list-item--column-2 footer__navigation__list-item--row-3">
+        <li class="footer__navigation__list-item">
           <a href="#" class="footer__navigation__list-link">Shop By Designer</a>
         </li>
-
       </ul>
     </section>
 
@@ -321,19 +321,19 @@
 
       <ul class="footer__navigation__list footer-list">
         <li class="footer-list__item">
-          <a href="https://ru-ru.facebook.com/" class="footer-list__link footer-list__link--feecbook"></a>
+          <a href="https://ru-ru.facebook.com/" class="footer-list__link footer-list__link--facebook" aria-label="Найти нас в facebook"></a>
         </li>
 
         <li class="footer-list__item">
-          <a href="https://twitter.com/?lang=ru" class="footer-list__link footer-list__link--twitter"></a>
+          <a href="https://twitter.com/?lang=ru" class="footer-list__link footer-list__link--twitter" aria-label="Найти нас в twitter"></a>
         </li>
 
         <li class="footer-list__item">
-          <a href="https://ru.pinterest.com/" class="footer-list__link footer-list__link--pinterest"></a>
+          <a href="https://ru.pinterest.com/" class="footer-list__link footer-list__link--pinterest" aria-label="Найти нас в pinterest"></a>
         </li>
 
         <li class="footer-list__item">
-          <a href="https://www.instagram.com/" class="footer-list__link footer-list__link--instagram"></a>
+          <a href="https://www.instagram.com/" class="footer-list__link footer-list__link--instagram" aria-label="Найти нас в instagram"></a>
         </li>
       </ul>
     </section>
