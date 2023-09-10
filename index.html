@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="google" content="notranslate">
   <meta name="format-detection" content="telephone=no">
   <title>Document</title>
@@ -10,9 +10,9 @@
   <link href="css/style.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="index-js">
 <header class="header header--js">
-  <a class="header__link-logo" href="#">
+  <a class="header__link-logo">
     <img class="header__logo" width="130" height="40" src="./img/logo-desktop.png" srcset="./img/logo-desktop@x2.png 2x" alt="Логотип компании Groomers">
   </a>
 
@@ -22,10 +22,10 @@
   <div class="header__wrap-menu">
     <nav class="header__nav">
       <ul class="header__list">
-        <li class="header__item"><a href="" class="header__link header__link--active">Главная</a></li>
-        <li class="header__item"><a href="" class="header__link @@activeAbout">О нас</a></li>
-        <li class="header__item"><a href="" class="header__link @@activePrise">Прайс-лист</a></li>
-        <li class="header__item"><a href="" class="header__link @@activeReviews">Отзывы</a></li>
+        <li class="header__item"><a class="header__link header__link--active">Главная</a></li>
+        <li class="header__item"><a href="../../about.html" class="header__link">О нас</a></li>
+        <li class="header__item"><a href="../../prise.html" class="header__link">Прайс-лист</a></li>
+        <li class="header__item"><a href="../../reviews.html" class="header__link">Отзывы</a></li>
       </ul>
     </nav>
 
@@ -239,6 +239,7 @@
     </fieldset>
   </form>
 </section>
+
 
 <script type="module" src="./js/index.js"></script>
 </body>
