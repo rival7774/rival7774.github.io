@@ -4,6 +4,7 @@ const header = document.querySelector('.header--js');
 const CLASS_OPEN_MENU = 'header--open-menu';
 
 if (btnBurger && header) {
+
   btnBurger.addEventListener('click', (e) => {
 
     if (header.classList.contains(CLASS_OPEN_MENU)) {

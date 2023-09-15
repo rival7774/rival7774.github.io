@@ -1,10 +1,180 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="google" content="notranslate">
+  <meta name="format-detection" content="telephone=no">
+  <title>Document</title>
+
+  <link href="css/style.min.css" rel="stylesheet">
 </head>
-<body>
-<h1>О нас</h1>
+
+<body class="about-js">
+
+<header class="header header--js">
+  <a class="header__link-logo" href="../../index.html">
+    <img class="header__logo" width="130" height="40" src="./img/logo-desktop.png" srcset="./img/logo-desktop@x2.png 2x" alt="Логотип компании Groomers">
+  </a>
+
+  <button class="header__btn-menu header__btn-menu--js button button--border hide-completely"><span class="header__burger"></span> Меню
+  </button>
+
+  <div class="header__wrap-menu">
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item"><a href="../../index.html" class="header__link">Главная</a></li>
+        <li class="header__item"><a class="header__link header__link--active">О нас</a></li>
+        <li class="header__item"><a href="../../prise.html" class="header__link">Прайс-лист</a></li>
+        <li class="header__item"><a href="../../reviews.html" class="header__link">Отзывы</a></li>
+      </ul>
+    </nav>
+
+    <button class="header__btn button button--border btn-call-js">Обратный звонок</button>
+    <button class="header__btn button btn-application-js">Оставить заявку</button>
+  </div>
+</header>
+
+<div class="dark-curtain"></div>
+
+
+<main>
+  <section class="groomers container">
+    <h1 class="visually-hidden">Грумеры - сообщество любителей животных.</h1>
+
+    <div class="groomers__wrap-logo">
+      <picture>
+        <source type="image/webp" media="(max-width: 768px)" srcset="./img/small-icon-about.webp, img/small-icon-about@x2.webp 2x">
+        <source type="image/webp" srcset="./img/big-icon-about.webp, img/big-icon-about@x2.webp 2x">
+
+        <source media="(min-width: 768px)" srcset="./img/small-icon-about.png, ./img/small-icon-about@x2.png 2x">
+        <img class="groomers__logo" width="1800" height="401" src="./img/big-icon-about.png" srcset="./img/big-icon-about@x2.png 2x" alt="Большой логотип компании Гроуминг">
+      </picture>
+    </div>
+
+    <p class="groomers__description">Грумеры - сообщество любителей животных. Люди, которые действительно любят свое
+      дело, и получают от него
+      удовольствие.</p>
+
+    <p class="groomers__text">Уход за животными - это такое же искусство как и рисование, музыка, поэзия. При этом
+      многие компании,
+      предоставляющие груминг-услуги считают работу рутиной.</p>
+
+    <picture>
+      <source type="image/webp" media="(max-width: 768px)" srcset="./img/dog-care-mobile.webp, ./img/dog-care-mobile@x2.webp 2x">
+      <source type="image/webp" srcset="./img/dog-care-desktop.webp, ./img/dog-care-desktop@x2.webp 2x">
+
+      <source media="(min-width: 768px)" srcset="./img/dog-care-mobile.jpg, ./img/dog-care-mobile@x2.jpg 2x">
+      <img class="groomers__img" width="1170" height="360" src="./img/dog-care-desktop.jpg" srcset="./img/dog-care-desktop@x2.jpg 2x" alt="два человека расчёсывают рыжую собаку и просушивают феном">
+    </picture>
+  </section>
+
+  <section class="reviews container">
+    <h2 class="reviews__title">Наша основная команда состоит из грумеров с опытом в <span class="dedicated dedicated--brown">более 10-ти лет</span></h2>
+
+    <div class="reviews__inner-wrap">
+      <p class="reviews__text">Команда</p>
+
+      <ul class="reviews__list">
+        <li class="reviews__item">
+          <picture>
+            <source type="image/webp" srcset="./img/anna.webp, ./img/anna@x2.webp 2x">
+
+            <img class="reviews__img" width="159" height="159" src="./img/anna.jpg" srcset="./img/anna@x2.jpg 2x" alt="два человека расчёсывают рыжую собаку и просушивают феном">
+          </picture>
+
+          <p class="reviews__name">Анна Бычкова</p>
+
+          <p class="reviews__speciality">Основатель, Главный грумер</p>
+
+          <p class="reviews__description">10 лет назад Анна закончила МГУ по профессии Ветеринар. Через 5 лет работы в
+            разных ветеринарных клиниках
+            поняла, что хочет открыть свое дело. Так и появились GROOMERS</p>
+        </li>
+
+        <li class="reviews__item">
+          <picture>
+            <source type="image/webp" srcset="./img/maria.webp, ./img/maria@x2.webp 2x">
+
+            <img class="reviews__img" width="159" height="159" src="./img/maria.jpg" srcset="./img/maria@x2.jpg 2x" alt="два человека расчёсывают рыжую собаку и просушивают феном">
+          </picture>
+
+          <p class="reviews__name">Мария Павлова</p>
+
+          <p class="reviews__speciality">Грумер</p>
+
+          <p class="reviews__description">Все наши коллеги постоянно подмечают, что когда Маша делает свою работу - у
+            нее горят глаза. Наша команда очень любит Машу, и вдохновляется ею. </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__inner-wrap container">
+    <p class="footer__copyright">&copy GROOMERS 2021 - 2023. Все права защищены. </p>
+    <div class="footer__wrap-links">
+      <a class="footer__link" href="">Политика конфиденциальности</a>
+      <a class="footer__link" href="">Пользовательское соглашение</a>
+    </div>
+  </div>
+</footer>
+
+
+<section class="popup hide-completely popup-application-js" tabindex="0">
+  <h2 class="visually-hidden">Форма для отправки заявки</h2>
+
+  <form class="popup__form" name="application" action="#">
+    <button class="popup__close btn-close-popup-js" type="button" aria-label="Закрыть окно с формой"></button>
+
+    <fieldset class="popup__fieldset fieldset">
+      <legend class="popup__legend title">Оставить заявку</legend>
+
+      <input class="popup__input-name input" type="text" name="application-name" id="application-name" placeholder="Фамилия и Имя">
+      <label class="visually-hidden" for="application-name"></label>
+
+      <input required class="popup__input-name input" type="tel" name="application-tel" id="application-tel" placeholder="Номер телефона">
+      <label class="visually-hidden" for="application-tel"></label>
+
+      <div class="select-grooming">
+        <label class="visually-hidden" for="grooming">Выберите груминг</label>
+        <select class="select" name="grooming" id="grooming">
+          <option value="1" class="asd__item">Гигиенический груминг</option>
+          <option value="2" class="asd__item">Профессиональный груминг</option>
+          <option value="3" class="asd__item">Эстетический груминг</option>
+        </select>
+      </div>
+
+      <button class="popup__submit button" type="submit">Отправить</button>
+    </fieldset>
+  </form>
+</section>
+
+<section class="popup hide-completely popup-call-js" tabindex="0">
+  <h2 class="visually-hidden">Форма для обратного звонка</h2>
+
+  <form class="popup__form" name="call" action="#">
+    <button class="popup__close btn-close-popup-js" type="button" aria-label="Закрыть окно с формой"></button>
+
+    <fieldset class="popup__fieldset fieldset">
+      <legend class="popup__legend title">Обратный звонок</legend>
+
+      <input class="popup__input-name input" type="text" name="name" id="name" placeholder="Фамилия и Имя">
+      <label class="visually-hidden" for="name"></label>
+
+      <input required class="popup__input-name input" type="tel" name="tel" id="tel" placeholder="Номер телефона">
+      <label class="visually-hidden" for="tel"></label>
+
+      <input class="popup__input-name input" type="text" name="question" id="question" placeholder="Тип вопроса">
+      <label class="visually-hidden" for="question"></label>
+
+      <button class="popup__submit button" type="submit">Отправить</button>
+    </fieldset>
+  </form>
+</section>
+
+
+<script type="module" src="./js/index.js"></script>
 </body>
 </html>
